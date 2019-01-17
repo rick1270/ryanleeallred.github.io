@@ -4,4 +4,4 @@ title:  Clustering
 category: C
 ---
 
-Definition Coming Soon
+A type of unsupervised learning identifying groupings of related observations.
