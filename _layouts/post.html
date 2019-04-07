@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-{% assign truncatedDate = page.date | date: %Y-%m-%d | truncate: 10, "" %}
+{% assign truncatedDate = page.date | date: Y-m-d | truncate: 10, "" %}
 
 <h2 class="inline">{{ page.title }}</h2>
 <a href="https://github.com/ryanleeallred/ryanleeallred.github.io/edit/master/_posts/{{truncatedDate}}-{{page.title | downcase | replace: ' ', '-'}}.md">	

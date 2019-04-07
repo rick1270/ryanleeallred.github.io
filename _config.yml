@@ -5,7 +5,7 @@ baseurl:      ""
 paginate:     1
 locale:       "en"
 permalink: /:categories/:title
-url: "http://www.dsglossary.com"
+url: "https://dsglossary.com"
 repository: ryanleeallred/ryanleeallred.github.io
 
 #Organize Category Collections
@@ -29,16 +29,11 @@ author:
 #Others
 markdown: kramdown
 
-# Gems
-gems:
-  - jekyll-sitemap
-  - "jekyll-github-metadata"
-
+# Gems / Plugins
 plugins: 
   - jekyll-sitemap
   - "jekyll-github-metadata"
-
-
+  - jekyll-paginate
 
 
 #API Calls
