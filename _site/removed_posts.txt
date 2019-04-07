@@ -1,37 +1,16 @@
 removed posts
-
-NewSQL is a way to try and reconcile the increasing neeed for scalability with the [ACID](https://en.wikipedia.org/wiki/ACID_(computer_science)) principles that drive relational tables.
-These kind of architechtures (like google spanner) use transaction commits to keep data safe while still keeping high read write volumes, allowing for horizontal scalability(the ability to utilize economies of scale when buying equipment).
-
-![schema](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MediaWiki_database_schema_1-19_%28r102798%29.svg/823px-MediaWiki_database_schema_1-19_%28r102798%29.svg.png)
 _______
 
-Document Oriented Databases like [MongoDB](https://www.mongodb.com/) are useful for storing large amounts of data without as many limitations as SQL.  This means it is less persistent and emphasizes availability and volume, making it more scalable than relational databasing.  Use for larger data or quick development.
-
-*NOTE:  MongoDB has added transactions recently, allowing it to make your data more persistent, keeping it useful even compared to more modern database techniques.*
-
-![chart](https://upload.wikimedia.org/wikipedia/commons/7/7c/Object-Oriented_Model.svg)
 _______
-A database is a store of information that can be pulled, queried, and accessed for use in data science application.  The three main types are [relational databases](https://www.dsglossary.com/s/sql), [document oriented storage](https://www.dsglossary.com/d/document-oriented-databases), and ["NewSQL"](https://www.dsglossary.com/n/NewSQL) architecture. 
-![Database](https://cdn.pixabay.com/photo/2017/01/05/11/57/database-1954920_960_720.jpg)
 
 _______
-Reproducibility is the construction of an environment or a piece of code so that things can be reconstructed the same way across many devices, byte for byte when possible.
-
-This is especially important in production code and model deployment, where simply hacking together a model is not sufficient.
-
-Use things like [docker](https://www.docker.com/) to build 'containers', or essentially deployable labs, in order to ensure proper conditions.
 
 _______
-The Sum of Squared errors is what happens when you take the distance of each point in your dataset and measure its distance from a line, usually the line of best fit.  From there you square them so they all have the same sign, and add them up.  this will give you the total error of your line, which is useful for having a baseline to improve your predictions and test your models.
 
-![Sum_of_squared_errors](https://upload.wikimedia.org/wikipedia/commons/e/ed/Residuals_for_Linear_Regression_Fit.png)
 _______
-![line_of_best_fit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz7Ho-Po5aRpLFsvbIcQq61Q4FliFDS_9Lfqsa_2S1_rV0-Qni)
-_______
-In mathematics, physics, and engineering, a **Euclidean vector (sometimes called a geometric or spatial vector, or—as here—simply a vector)** is a geometric object that has magnitude (or length) and direction.
 
-Source: [Wiki](https://en.wikipedia.org/wiki/Euclidean_vector)
+_______
+
 _______
 In probability theory and statistics, **variance** is the expectation of the squared deviation of a random variable from its mean. Informally, it measures how far a set of (random) numbers are spread out from their average value.
 
