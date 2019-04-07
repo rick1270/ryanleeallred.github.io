@@ -8,7 +8,7 @@
        Z-Score | dsglossary.com
    
   </title> 
-  <meta itemprop="description" name="description" content="A Glossary of Data Science, Statistics, Machine Learning, and Artificial Intelligence." /> 
+  <meta itemprop="description" name="description" content="Z-score - is the signed fractional number of standard deviations by which the value of an observation or data point is above the mean value of what is being ..." /> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -36,7 +36,7 @@
 
   <body>
     <section class="page-header">
-  <h1 class="project-name">Data Science Glossary</h1>
+  <h1 class="project-name"><a href="http://localhost:4000">Data Science Glossary</a></h1>
   <h2 class="project-tagline">A Glossary of Data Science, Statistics, Machine Learning, and Artificial Intelligence.</h2>
   <a href="/a" class="btn">A</a>
   <a href="/b" class="btn">B</a>
@@ -66,7 +66,10 @@
 
     <section class="main-content">
       
-      
+      <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+
 
 <h2 class="inline">Z-Score</h2>
 <a href="https://github.com/ryanleeallred/ryanleeallred.github.io/edit/master/_posts/2018-11-03-z-score.md">	
@@ -75,10 +78,23 @@
 	</button>
 </a>
 
-<p>Definition Coming Soon</p>
+<p>The Z-Score describes the number of standard deviations any particular datapoint is from the population mean. In statistics, <strong>the standard score</strong> is the signed fractional number of standard deviations by which the value of an observation or data point is above the mean value of what is being observed or measured. Observed values above the mean have positive standard scores, while values below the mean have negative standard scores.</p>
+
+<p>It is calculated by subtracting the population mean from an individual raw score and then dividing the difference by the population standard deviation. It is a dimensionless quantity. This conversion process is called standardizing or normalizing (however, “normalizing” can refer to many types of ratios; see normalization for more).</p>
+
+<p><strong>Standard scores are also called z-values, z-scores, normal scores, and standardized variables.</strong> They are most frequently used to compare an observation to a theoretical deviate, such as a standard normal deviate.</p>
+
+<p>Computing a z-score requires knowing the mean and standard deviation of the complete population to which a data point belongs; if one only has a sample of observations from the population, then the analogous computation with sample mean and sample standard deviation yields the t-statistic.</p>
+
+<p>\[z\,score_i = \frac{x_i - \overline{x}}{\sigma_x}\]</p>
+
+<p>X is value in the distribution (an individual score), x-bar is the population mean, and σ is the population standard deviation</p>
+
+<p>Source: <a href="https://en.wikipedia.org/wiki/Standard_score">Wiki</a></p>
 
 
 <p class="meta updated">Last Updated: November 03, 2018</p>
+
 
       <footer class="site-footer">
   <span class="site-footer-owner"><a href="http://localhost:4000">Data Science Glossary</a> is maintained by <a href="http://twitter.com/ryanallred">Ryan Allred <i class="fab fa-twitter"></i></a>.</span>

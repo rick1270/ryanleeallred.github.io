@@ -36,7 +36,7 @@
 
   <body>
     <section class="page-header">
-  <h1 class="project-name">Data Science Glossary</h1>
+  <h1 class="project-name"><a href="http://localhost:4000">Data Science Glossary</a></h1>
   <h2 class="project-tagline">A Glossary of Data Science, Statistics, Machine Learning, and Artificial Intelligence.</h2>
   <a href="/a" class="btn">A</a>
   <a href="/b" class="btn">B</a>
@@ -66,7 +66,10 @@
 
     <section class="main-content">
       
-      
+      <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+
 
 <h2 class="inline">Regression Modeling</h2>
 <a href="https://github.com/ryanleeallred/ryanleeallred.github.io/edit/master/_posts/2018-11-03-regression-modeling.md">	
@@ -75,10 +78,17 @@
 	</button>
 </a>
 
-<p>Definition Coming Soon</p>
+<p>Regression modeling is a form of predictive modelling technique which investigates the relationship between a dependent (target) and independent variable (s) (predictor). This technique is used for forecasting, time series modelling and finding the causal effect relationship between the variables.  It attempts to minimize the residual errors in your data.</p>
+
+<p>Beware of outliers!  Outliers have a way of throwing off models, so you may wish to prune them with something like:</p>
+
+<p><code class="highlighter-rouge">df[np.abs(df.Data-df.Data.mean()) &lt;= (3*df.Data.std())]</code></p>
+
+<p>This keeps only the ones that are within +3 to -3 standard deviations in the column ‘Data’.</p>
 
 
 <p class="meta updated">Last Updated: November 03, 2018</p>
+
 
       <footer class="site-footer">
   <span class="site-footer-owner"><a href="http://localhost:4000">Data Science Glossary</a> is maintained by <a href="http://twitter.com/ryanallred">Ryan Allred <i class="fab fa-twitter"></i></a>.</span>
