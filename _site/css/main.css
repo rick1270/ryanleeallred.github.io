@@ -41,3 +41,8 @@
 	padding-left: 10px;
 }
 
+.project-name a {
+    color: white;
+    text-decoration: none;
+}
+
